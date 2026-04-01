@@ -1,4 +1,7 @@
-back-end-V0.0.5
+back-end-V0.1.6
+The Edit for code in 
+add gitignore&.gitattributes to cleanup project 
+add helmet 
 include{
 1-acounte(
 create acounte 
