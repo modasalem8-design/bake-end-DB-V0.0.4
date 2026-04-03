@@ -7,7 +7,7 @@ import up from '../routs/upload.js';
 import del from '../userController/del.js';
 import crep from "../post/crep.js";
 import delp from '../post/delp.js';
-import cors from 'cors';
+
 import uppost from '../post/uppost.js';
 import upuse from '../userController/upuse.js';
 import time from "../Middleware/user.time.js";
@@ -36,7 +36,6 @@ app2.use(upuse)
 //الوقت في time
 app2.use(time)
 // حماية النظام
-app2.use(cors())
 
 // اكتشاف الاخطاء
 //تجربة

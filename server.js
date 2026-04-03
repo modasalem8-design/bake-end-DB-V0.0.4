@@ -4,13 +4,15 @@ import dotenv from 'dotenv'
 import app2 from './sql&user/connect.js'
 // استعادة helmet لحماية النظام
 import helmet from "helmet";
-
+import cors from 'cors';
 //تعريفات
 const app = express();
 dotenv.config()
 app.use(helmet())
 //الربط بين الموقع والباك
 app.use(app2)
+
+app2.use(cors())
 
 const PORT = process.env.PORT;
 const pp='0.0.0.0';
