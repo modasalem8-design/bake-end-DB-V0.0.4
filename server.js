@@ -12,7 +12,7 @@ app.use(helmet())
 //الربط بين الموقع والباك
 app.use(app2)
 
-app2.use(cors())
+app.use(cors())
 
 const PORT = process.env.PORT;
 const pp='0.0.0.0';
