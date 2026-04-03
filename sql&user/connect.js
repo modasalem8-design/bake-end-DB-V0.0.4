@@ -36,6 +36,7 @@ app2.use(upuse)
 //الوقت في time
 app2.use(time)
 // حماية النظام
+app2.use(cors())
 
 // اكتشاف الاخطاء
 //تجربة
