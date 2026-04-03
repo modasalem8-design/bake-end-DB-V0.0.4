@@ -15,7 +15,6 @@ import time from "../Middleware/user.time.js";
 const app2 = (e())
 app2.use(e.json())
 app2.use(e.json())
-app2.use(cors())
 app2.use(router)
 //استدعائات انشاء الحساب
 app2.use(create)
